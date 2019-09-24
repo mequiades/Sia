@@ -5,7 +5,12 @@
  */
 package minisia.logic;
 
+import java.util.Date;
+import java.util.List;
 import minisia.UI.UI;
+import minisia.data.Campus;
+import minisia.data.Grade;
+import minisia.data.Group;
 import minisia.data.Student;
 import minisia.data.Professor;
 
@@ -26,7 +31,8 @@ public class MiniSia {
         
        int op=UI.seleccionar();
         
-        Student paola =new Student("Paola",87);
+        Student paola =new Student(285314,"jeaguileraf","Julio","Aguilera",12:17:1990,);
+        //(int id, String user, String firstName, String lastName, Date birthDate, List<Group> groupAttended, List<Grade> gradeReceived, Campus studyIn)
         Professor pedro = new Professor(13,"Pedro");
         
         if(op==1){
