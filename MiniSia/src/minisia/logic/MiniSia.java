@@ -22,13 +22,12 @@ public class MiniSia {
     public static void main(String[] args) {
         // TODO code application logic here
        
-
        UI.saludar();
         
        int op=UI.seleccionar();
         
-        Estudiante paola =new Student("Paola",87);
-        Profesor pedro = new Professor(13,"Pedro");
+        Student paola =new Student("Paola",87);
+        Professor pedro = new Professor(13,"Pedro");
         
         if(op==1){
             System.out.println(paola.toString());
